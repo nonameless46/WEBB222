@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        figure {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+        .dwnld{
+            background-color: blue;
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            cursor: pointer;
+            display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+        }
+        figcaption{
+        order: -1;             
+        max-width: 1024px;
+	    display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: x-large;
+        width: 280px;
+        background: rgb(52, 152, 219);
+        color: white;
+        padding: 10px 5px 10px 5px;
+        }
+        .mWidth{
+            max-width: 1024px;
+            width:500px;
+            height:500px;
+            margin:0 auto;
+            background:#f7f7f7;
+            position:absolute;
+            left:50%;
+            top:50%;
+            margin-left:-250px;
+            margin-top:-250px;   
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="me">
+        <figure>
+            <img src=
+    "card.jpg" 
+                 alt="gfglogo" style="width:50%">
+              
+            <figcaption><b>Alexander Battiston <br> Software Engineer</figcaption>
+                
+        </figure>
+        <a href="card.jpg" download>
+            <button class="dwnld"><i class="fa fa-download"></i> Download</button>
+            </a>
+    </header>
+    
+</body>
+</html>
+
+<!--input type="button" onClick="document.getElementById('middle').scrollIntoView();" />
